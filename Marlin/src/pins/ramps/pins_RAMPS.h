@@ -61,6 +61,12 @@
 //
 // Servos
 //
+// wathiede: attempting to use MISO
+#define SERVO0_PIN 50
+// wathiede: attempting to use Y+
+#define Y_MAX_PIN -1
+//#define SERVO0_PIN 15
+
 #ifndef SERVO0_PIN
   #ifdef IS_RAMPS_13
     #define SERVO0_PIN                         7
