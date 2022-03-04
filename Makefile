@@ -1,3 +1,5 @@
+all:
+	./buildroot/bin/generate_version && platformio run --target upload -e mega2560
 help:
 	@echo "Tasks for local development:"
 	@echo "* tests-single-ci:             Run a single test from inside the CI"
